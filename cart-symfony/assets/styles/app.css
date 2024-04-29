@@ -1,0 +1,61 @@
+body {
+    background-color: white;
+}
+.cart {
+    width: 62%;
+    /*position: absolute;*/
+    background: #FFFFFF;
+    background: linear-gradient(135deg, #A6C8FF 0%, #0043CE 100%);
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+.sm{
+    font-size: 10px;
+    color: #8F90A6
+}
+.back-cart{
+    background: #EBEBF0;
+    width: 55%;
+    left: 190px;
+    position: absolute;
+}
+.back-text{
+    width: 32%;
+}
+.back-text input{
+    width: 60%;
+}
+.add-cart {
+    background: #F2F2F5;
+    width: 26%;
+}
+.add-cart :active :hover{
+    border: solid 1px #3E7BFA
+}
+@media (max-width: 991px) {
+    .back-cart{
+        width: 95%;
+        left: 0;
+        top: 400px;
+    }
+    .cart{
+        width: 95%;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .back-cart{
+        width: 75%;
+        left: 60px;
+        top: 440px;
+    }
+    .cart {
+        width: 95%;
+
+    }
+}
